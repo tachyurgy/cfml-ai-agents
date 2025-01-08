@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  cfml-ai-agents:
+    image: lucee/lucee:5.4-nginx
+    container_name: cfml-ai-agents
+    ports:
+      - "8501:80"
+    volumes:
+      - .:/var/www
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - LLM_PROVIDER=${LLM_PROVIDER:-anthropic}
+      - LLM_MODEL=${LLM_MODEL:-claude-sonnet-4-6-20250514}
+      - SERPAPI_KEY=${SERPAPI_KEY:-}
+    restart: unless-stopped

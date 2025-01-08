@@ -1,0 +1,6 @@
+.env
+/logs/
+.commandbox/
+server-*
+*.log
+node_modules/

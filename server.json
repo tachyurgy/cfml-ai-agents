@@ -1,0 +1,18 @@
+{
+    "name": "cfml-ai-agents",
+    "app": {
+        "cfengine": "lucee@5"
+    },
+    "web": {
+        "host": "0.0.0.0",
+        "HTTP": {
+            "port": 8501,
+            "enable": true
+        },
+        "rewrites": {
+            "enable": true
+        }
+    },
+    "openBrowser": false,
+    "trayEnable": false
+}

@@ -1,0 +1,35 @@
+{
+    "name": "cfml-ai-agents",
+    "version": "1.0.0",
+    "slug": "cfml-ai-agents",
+    "type": "projects",
+    "keywords": [
+        "cfml",
+        "coldfusion",
+        "ai",
+        "agents",
+        "react-pattern",
+        "llm",
+        "tool-use"
+    ],
+    "private": false,
+    "homepage": "https://github.com/tachyurgy/cfml-ai-agents",
+    "bugs": "https://github.com/tachyurgy/cfml-ai-agents/issues",
+    "repository": {
+        "type": "git",
+        "URL": "https://github.com/tachyurgy/cfml-ai-agents.git"
+    },
+    "license": "MIT",
+    "description": "An AI agent framework for ColdFusion. ReAct-pattern reasoning, tool use, conversation memory.",
+    "engines": {
+        "type": "lucee",
+        "lucee": ">=5.0.0"
+    },
+    "dependencies": {},
+    "devDependencies": {},
+    "installPaths": {},
+    "scripts": {
+        "start": "server start",
+        "stop": "server stop"
+    }
+}
